@@ -8,6 +8,7 @@
     "paths": {
         "/pets": {
             "get": {
+                "tags": ["pets"],
                 "parameters": [
                     {
                         "in": "body",
